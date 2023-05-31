@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar {
+    background-color: teal;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar-buttons {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.login-group {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
