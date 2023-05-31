@@ -13,7 +13,7 @@
 
 .nav-bar-buttons {
     display: flex;
-    width: 700px;
+    width: 900px;
     justify-content: space-between;
 }
 
@@ -21,4 +21,18 @@
     display: flex;
     width: 120px;
     justify-content: space-between;
+}
+
+.logo-heading-bar-thang {
+    display: flex;
+    background-color: lightblue;
+    padding: 70px 0px;
+    justify-content: center;
+}
+
+.logo-heading-bar-thang-guts {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    align-items: center;
 }
