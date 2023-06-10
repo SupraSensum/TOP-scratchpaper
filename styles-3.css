@@ -9,6 +9,16 @@
     justify-content: center;
 }
 
+.header {
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+}
+
 .header-item {
     
+}
+
+.header-item.buffer {
+    height: 20px;
 }
