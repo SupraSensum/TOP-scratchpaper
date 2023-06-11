@@ -22,3 +22,35 @@
 .header-item.buffer {
     height: 20px;
 }
+
+.index-container {
+    display: flex;
+    justify-content: center;
+}
+
+.index {
+    padding: 20px;
+    width: 400px;
+}
+
+.index-divider-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.index-divider-container-item {
+    flex: 1;
+}
+
+.index-divider-container-item-A {
+    display: flex;
+    justify-content: right;
+    align-items: start;
+}
+
+
+.index-divider-container-item-spacer {
+    width: 40px;
+    flex: initial;
+}
