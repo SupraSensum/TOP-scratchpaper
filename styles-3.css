@@ -43,7 +43,6 @@
     align-items: start;
 }
 
-
 .index-divider-container-item-spacer {
     width: 40px;
     flex: initial;
@@ -51,4 +50,12 @@
 
 .flex-all-equal-item.title {
     color: red;
+}
+
+.sub-container-flex-demo {
+    padding: 20px;
+}
+
+.flex-all-equal-item-container .flex-all-equal-item {
+    border: 1px solid black;
 }
