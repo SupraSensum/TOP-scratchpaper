@@ -4,35 +4,26 @@
     box-sizing: border-box;
 }
 
-.header-container {
+.container {
     display: flex;
     justify-content: center;
     border: 1px solid black;
+}
+
+.sub-container {
+    padding: 20px;
+    width: 400px;
 }
 
 .header {
     text-align: center;
-    padding: 20px;
-    width: 400px;
 }
 
 .header-item {
-    
 }
 
 .header-item.buffer {
     height: 20px;
-}
-
-.index-container {
-    display: flex;
-    justify-content: center;
-    border: 1px solid black;
-}
-
-.index {
-    padding: 20px;
-    width: 400px;
 }
 
 .index-divider-container {
@@ -56,4 +47,8 @@
 .index-divider-container-item-spacer {
     width: 40px;
     flex: initial;
+}
+
+.flex-all-equal-item.title {
+    color: red;
 }
