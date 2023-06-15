@@ -57,12 +57,11 @@
 }
 
 .flex-all-equal-item.title {
+    flex: 1;
+    justify-content: center;
 }
 
-.sub-container-flex-demo {
-    padding: 20px;
-}
-
-.flex-all-equal-item-container .flex-all-equal-item {
+.flex-all-equal-item {
+    display: flex;
     border: 1px solid black;
 }
