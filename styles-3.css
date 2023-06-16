@@ -66,13 +66,13 @@
     flex: 1;
 }
 
-.sub-container {
-    display: flex;
-}
-
 .flex-all-equal-demo-item {
     display: flex;
     justify-content: center;
     height: 20px;
     flex: 1;
+}
+
+.flex-demo-container {
+    background-color: rebeccapurple;
 }
