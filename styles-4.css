@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.horizontal-divs-demo {
+    display: flex;
+}
+
+.horizontal-divs-demo > div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
