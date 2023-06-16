@@ -18,9 +18,9 @@
     elements automatically place themselves onto a new line... forgot
     what the formal term for that is (block vs inline item?).
 */
-.sub-container {
+.sub-container-title-and-description {
     width: 400px;
-    border: 1px solid red;
+    border: 2px solid red;
 }
 
 .header {
@@ -56,12 +56,23 @@
     flex: initial;
 }
 
-.flex-all-equal-item.title {
-    flex: 1;
-    justify-content: center;
-}
-
 .flex-all-equal-item {
     display: flex;
+    justify-content: center;
     border: 1px solid black;
+}
+
+.flex-all-equal-item.title {
+    flex: 1;
+}
+
+.sub-container {
+    display: flex;
+}
+
+.flex-all-equal-demo-item {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    flex: 1;
 }
