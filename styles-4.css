@@ -17,3 +17,53 @@
     justify-content: center;
     align-items: center;
 }
+
+.differing-flex-values-demo {
+    display: flex;
+    height: 40px;
+}
+
+.differing-flex-values-demo > div {
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.differing-flex-values-demo > .div-1 {
+    flex: 1;
+}
+
+.differing-flex-values-demo > .div-2 {
+    flex: 2;
+}
+
+.differing-flex-values-demo > .div-3 {
+    flex: 3;
+}
+
+.differing-flex-values-demo-2 {
+    display: flex;
+    height: 40px;
+}
+
+.differing-flex-values-demo-2 > div {
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.differing-flex-values-demo-2 > .div-1 {
+    flex: 3;
+}
+
+.differing-flex-values-demo-2 > .div-2 {
+    flex: 2;
+}
+
+.differing-flex-values-demo-2 > .div-3 {
+    flex: 1;
+}
