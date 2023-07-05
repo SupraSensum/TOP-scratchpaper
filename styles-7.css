@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.the-container-container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.the-container-between {
+    border: 1px solid black;
+    height: 80px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.the-container-between > div {
+    width: 80px;
+    border: 2px solid purple;
+}
+
+.the-container-around {
+    border: 1px solid black;
+    height: 80px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.the-container-around > div {
+    width: 80px;
+    border: 2px solid purple;
+}
