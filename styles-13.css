@@ -6,7 +6,7 @@
 
 .container {
     border: 2px solid red;
-    height: 1000px;
+    height: 680px;
     display: flex;
     padding: 16px;
     gap: 8px;
@@ -16,7 +16,7 @@
 }
 
 .container div {
-    flex: 0 1 220px;
+    flex: 1 1 220px;
     border: 2px solid black;
-    height: 60px;
+    height: 220px;
 }
