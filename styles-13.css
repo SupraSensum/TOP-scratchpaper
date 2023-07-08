@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    border: 2px solid red;
+    height: 1000px;
+    display: flex;
+    padding: 16px;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.container div {
+    flex: 0 1 220px;
+    border: 2px solid black;
+    height: 60px;
+}
