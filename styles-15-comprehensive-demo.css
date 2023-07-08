@@ -4,3 +4,12 @@
     padding: 0px;
 }
 
+h1 {
+    padding: 16px 0px;
+    margin-bottom: 16px;
+    border-bottom: 2px dotted black;
+}
+
+.header {
+    padding: 20px;
+}
