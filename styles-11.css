@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-header {
+    display: flex;
+    padding: 20px;
+    gap: 12px;
+}
+
+.container-header > div.logo {
+    margin-right: auto;
+}
