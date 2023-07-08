@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    padding: 150px 20px;
+    border: 2px solid magenta;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > div {
+    border: 2px solid limegreen;
+    flex: 1 1 50px;
+    height: 100px;
+}
+
+.container > div.center {
+    flex: 1 6 600px;
+}
