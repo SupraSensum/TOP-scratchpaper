@@ -2,14 +2,37 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    color: #264653;
 }
 
 h1 {
     padding: 16px 0px;
     margin-bottom: 16px;
-    border-bottom: 2px dotted black;
+    border-bottom: 2px dotted #f4a261;
 }
 
 .header {
     padding: 20px;
+    border-bottom: 3px solid #f4a261;
+}
+
+.all-demo-container {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.single-demo-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 8px;
+    border: 3px solid #2a9d8f;
+}
+
+h3 {
+    padding: 8px 0px;
+    margin-bottom: 8px;
+    border-bottom: 2px dotted #2a9d8f;
 }

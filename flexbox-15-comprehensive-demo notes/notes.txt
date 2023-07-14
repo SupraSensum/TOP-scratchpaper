@@ -1,0 +1,23 @@
+Different quantities of flex items to demonstrate distributions
+
+flex-direction
+
+justify-content - just to show primary axis alighment
+
+align-content - just to show cross axis alignment
+
+the two together
+
+justify-content - just to show distro of space
+
+baseline
+
+gap
+
+flex-basis & align-self to target a single flex-item
+
+flex-shrink
+
+margin, left, right, auto, etc.
+
+wrap
