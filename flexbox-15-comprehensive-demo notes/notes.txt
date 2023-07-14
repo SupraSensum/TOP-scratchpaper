@@ -1,4 +1,3 @@
-Different quantities of flex items to demonstrate distributions
 
 flex-direction
 
@@ -21,3 +20,15 @@ flex-shrink
 margin, left, right, auto, etc.
 
 wrap
+
+------------------------------------------------------------
+
+flex-shorthand-distro
+ - Different quantities of flex items to demonstrate distributions
+ - 3 @ flex: 1
+ - 3 @ 112
+ - 3 @ 211
+ - 3 @ 121
+ - 5 @ 11211
+ - 5 @ 21212
+ - 5 @ 12121

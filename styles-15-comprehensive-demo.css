@@ -36,3 +36,31 @@ h3 {
     margin-bottom: 8px;
     border-bottom: 2px dotted #2a9d8f;
 }
+
+/* for all actual demos */
+
+.single-demo-container > .demo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* for all divs in a demo */
+
+.single-demo-container > .demo > div {
+    flex-basis: 20px;
+    border: 1px solid #2a9d8f;
+    display: flex;
+    padding: 12px;
+}
+
+/* for the "Playing with Flex Shorthand Values" demo */
+
+.flex-shorthand-distro > .demo > .first > div {
+    display: flex;
+    flex: 1;
+    border: 1px dotted #2a9d8f;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
