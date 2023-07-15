@@ -1,6 +1,3 @@
-
-flex-direction
-
 justify-content - just to show primary axis alighment
 
 align-content - just to show cross axis alignment
@@ -32,3 +29,7 @@ flex-shorthand-distro
  - 5 @ 11211
  - 5 @ 21212
  - 5 @ 12121
+
+flex-direction
+ - 3 @ row
+ - 3 @ column
