@@ -1,5 +1,3 @@
-justify-content - just to show primary axis alighment
-
 align-content - just to show cross axis alignment
 
 the two together
@@ -33,3 +31,23 @@ flex-shorthand-distro
 flex-direction
  - 3 @ row
  - 3 @ column
+
+justify-content
+ - row
+    - center
+    - flex-start
+    - flex-end
+    - space-around
+    - space-between
+    - space-evenly
+
+    - baseline
+ - column
+    - center
+    - flex-start
+    - flex-end
+    - space-around
+    - space-between
+    - space-evenly
+    
+    - baseline
