@@ -151,3 +151,100 @@ h3 {
 .justify-content > .demo > div > .space-evenly {
     justify-content: space-evenly;
 }
+
+/* "Align Items" demo */
+
+.align-items > .demo > div {
+    flex-direction: column;
+    gap: 12px;
+}
+
+.align-items > .demo > div > div {
+    display: flex;
+    border: 1px solid #2a9d8f;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 12px;
+}
+
+.align-items > .demo > .row-aligned > div {
+    flex-direction: row;
+}
+
+.align-items > .demo > .column-aligned > div {
+    flex-direction: column;
+    height: 400px;
+}
+
+.align-items > .demo > div > div > div {
+    border: 1px dotted #2a9d8f;
+    padding: 12px;
+}
+
+.align-items > .demo > div > .center {
+    align-items: center;
+}
+
+.align-items > .demo > div > .flex-start {
+    align-items: flex-start;
+}
+
+.align-items > .demo > div > .flex-end {
+    align-items: flex-end;
+}
+
+.align-items > .demo > div > .space-around {
+    align-items: space-around;
+}
+
+.align-items > .demo > div > .space-between {
+    align-items: space-between;
+}
+
+.align-items > .demo > div > .space-evenly {
+    align-items: space-evenly;
+}
+
+/* "Baseline" demo */
+
+.baseline > .demo > .justify-content {
+    flex-direction: row;
+    gap: 12px;
+    align-items: baseline;
+}
+
+.baseline > .demo > .justify-content > div {
+    border: 2px solid black;
+    flex: 1;
+    height: 60px;
+}
+
+.baseline > .demo > .justify-content > .medium {
+    height: 80px;
+}
+
+.baseline > .demo > .justify-content > .large {
+    height: 100px;
+}
+
+.baseline > .demo > .align-items {
+    flex-direction: column;
+    gap: 12px;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.baseline > .demo > .align-items > div {
+    border: 2px solid black;
+    flex: 1;
+    width: 60px;
+}
+
+.baseline > .demo > .align-items > .medium {
+    width: 80px;
+}
+
+.baseline > .demo > .align-items > .large {
+    width: 100px;
+}
