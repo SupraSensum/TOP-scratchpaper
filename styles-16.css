@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    padding: 12px;
+    gap: 12px;
+    border-bottom: 2px dashed black;
+}
+
+.login-menu-nest {
+    display: flex;
+    gap: 12px;
+}
+
+.box-me-baby {
+    border: 1px solid black;
+    padding: 6px 12px;
+}
+
+.header .home {
+    margin-right: auto;
+}
+
+.header .login {
+}
+
+.header .menu {
+}
