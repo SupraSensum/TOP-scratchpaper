@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    padding: 20px;
+    border-bottom: 6px solid black;
+}
+
+.demo-group-of-groups {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.demo-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.demo {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.demo > div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/* .space-distributed-outside-items */
+
+.space-distributed-outside-items .navbar {
+    border: 2px solid black;
+    padding: 2px;
+    display: flex;
+    gap: 6px;
+}
+
+.space-distributed-outside-items .navbar > div {
+    border: 1px solid grey;
+    padding: 2px 12px;
+}
+
+/* .space-distributed-outside-items .space-between */
+
+.space-distributed-outside-items .space-between .navbar {
+    justify-content: space-between;
+}
+
+/* .space-distributed-outside-items .space-around */
+
+.space-distributed-outside-items .space-around .navbar {
+    justify-content: space-around;
+}
+
+/* .space-distributed-outside-items .space-evenly */
+
+.space-distributed-outside-items .space-evenly .navbar {
+    justify-content: space-evenly;
+}
+
+/* .space-distributed-outside-items .flex-end */
+
+.space-distributed-outside-items .flex-end .navbar {
+    justify-content: flex-end;
+}
+
+/* .space-distributed-outside-items .flex-start */
+
+.space-distributed-outside-items .flex-start .navbar {
+    justify-content: flex-start;
+}
+
+/* .space-distributed-outside-items .center */
+
+.space-distributed-outside-items .center .navbar {
+    justify-content: center;
+}
+
+/* .space-distributed-within-items */
+
+.space-distributed-within-items .navbar {
+    border: 2px solid black;
+    padding: 2px;
+    display: flex;
+    gap: 6px;
+}
+
+.space-distributed-within-items .navbar > div {
+    border: 1px solid grey;
+    padding: 2px 12px;
+}
+
+/* .space-distributed-within-items .flex-auto */
+
+.space-distributed-within-items .flex-auto .navbar > div {
+    flex: auto;
+}
+
+/* .space-distributed-within-items .flex-1 */
+
+.space-distributed-within-items .flex-1 .navbar > div {
+    flex: 1;
+}
+/* .split-nav-using-margin */
+
+.split-nav-using-margin .navbar {
+    border: 2px solid black;
+    padding: 2px;
+    display: flex;
+    gap: 6px;
+}
+
+.split-nav-using-margin .navbar > div {
+    border: 1px solid grey;
+    padding: 2px 12px;
+}
+
+/* .space-distributed-within-items .margin-right-auto */
+
+.split-nav-using-margin .margin-right-auto {
+    margin-right: auto;
+}
+
+/* .space-distributed-within-items .margin-left-auto */
+
+.split-nav-using-margin .margin-left-auto {
+    margin-left: auto;
+}

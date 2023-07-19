@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>flexbox-17</title>
+        <link rel="stylesheet" href="../styles-17.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Flexbox Navigation Demonstrations</h1>
+            <p>Examples pulled from <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox">here</a>.</p>
+        </div>
+        <div class="demo-group-of-groups">
+            <div class="demo-group space-distributed-outside-items">
+                <div class="title">
+                    <h3><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox#space_distributed_outside_the_items">Space distributed outside the items</a></h3>
+                </div>
+                <div class="demo">
+                    <div class="space-between">
+                        <div class="demo-sub-title">
+                            <strong>space-between</strong>
+                        </div>
+                        <div class="navbar">
+                            <div>Page 1</div>
+                            <div>Page 2</div>
+                            <div>Page 3 is longer</div>
+                            <div>Page 4</div>
+                        </div>
+                    </div>
+                    <div class="space-around">
+                        <div class="demo-sub-title">
+                            <strong>space-around</strong>
+                        </div>
+                        <div class="navbar">
+                            <div>Page 1</div>
+                            <div>Page 2</div>
+                            <div>Page 3 is longer</div>
+                            <div>Page 4</div>
+                        </div>
+                    </div>
+                    <div class="space-evenly">
+                        <div class="demo-sub-title">
+                            <strong>space-evenly</strong>
+                        </div>
+                        <div class="navbar">
+                            <div>Page 1</div>
+                            <div>Page 2</div>
+                            <div>Page 3 is longer</div>
+                            <div>Page 4</div>
+                        </div>
+                    </div>
+                    <div class="flex-end">
+                        <div class="demo-sub-title">
+                            <strong>flex-end</strong>
+                        </div>
+                        <div class="navbar">
+                            <div>Page 1</div>
+                            <div>Page 2</div>
+                            <div>Page 3 is longer</div>
+                            <div>Page 4</div>
+                        </div>
+                    </div>
+                    <div class="flex-start">
+                        <div class="demo-sub-title">
+                            <strong>flex-start</strong>
+                        </div>
+                        <div class="navbar">
+                            <div>Page 1</div>
+                            <div>Page 2</div>
+                            <div>Page 3 is longer</div>
+                            <div>Page 4</div>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <div class="demo-sub-title">
+                            <strong>center</strong>
+                        </div>
+                        <div class="navbar">
+                            <div>Page 1</div>
+                            <div>Page 2</div>
+                            <div>Page 3 is longer</div>
+                            <div>Page 4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="demo-group space-distributed-within-items">
+                <div class="title">
+                    <h3><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox#space_distributed_within_the_items">Space distributed within the items</a></h3>
+                </div>
+                <div class="demo">
+                    <div class="flex-auto">
+                        <div class="demo-sub-title">
+                            <strong>flex: auto</strong>
+                        </div>
+                        <div class="navbar">
+                            <div>Page 1</div>
+                            <div>Page 2</div>
+                            <div>Page 3 is longer</div>
+                            <div>Page 4</div>
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <div class="demo-sub-title">
+                            <strong>flex: 1</strong>
+                        </div>
+                        <div class="navbar">
+                            <div>Page 1</div>
+                            <div>Page 2</div>
+                            <div>Page 3 is longer</div>
+                            <div>Page 4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="demo-group split-nav-using-margin">
+                <div class="title">
+                    <h3><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox#split_navigation">Split navigation using margins on flex items</a></h3>
+                </div>
+                <div class="demo">
+                    <div class="right-one">
+                        <div class="demo-sub-title">
+                            <strong>margin-right: auto on "Page 1"</strong>
+                        </div>
+                        <div class="navbar">
+                            <div class="margin-right-auto">Page 1</div>
+                            <div>Page 2</div>
+                            <div>Page 3 is longer</div>
+                            <div>Page 4</div>
+                        </div>
+                    </div>
+                    <div class="right-two">
+                        <div class="demo-sub-title">
+                            <strong>margin-right: auto on "Page 2"</strong>
+                        </div>
+                        <div class="navbar">
+                            <div>Page 1</div>
+                            <div class="margin-right-auto">Page 2</div>
+                            <div>Page 3 is longer</div>
+                            <div>Page 4</div>
+                        </div>
+                    </div>
+                    <div class="right-three">
+                        <div class="demo-sub-title">
+                            <strong>margin-right: auto on "Page 3"</strong>
+                        </div>
+                        <div class="navbar">
+                            <div>Page 1</div>
+                            <div>Page 2</div>
+                            <div class="margin-right-auto">Page 3 is longer</div>
+                            <div>Page 4</div>
+                        </div>
+                    </div>
+                    <div class="left-four">
+                        <div class="demo-sub-title">
+                            <strong>margin-right: auto on "Page 4"</strong>
+                        </div>
+                        <div class="navbar">
+                            <div>Page 1</div>
+                            <div>Page 2</div>
+                            <div>Page 3 is longer</div>
+                            <div class="margin-left-auto">Page 4</div>
+                        </div>
+                    </div>
+                    <div class="left-three">
+                        <div class="demo-sub-title">
+                            <strong>margin-right: auto on "Page 3"</strong>
+                        </div>
+                        <div class="navbar">
+                            <div>Page 1</div>
+                            <div>Page 2</div>
+                            <div class="margin-left-auto">Page 3 is longer</div>
+                            <div>Page 4</div>
+                        </div>
+                    </div>
+                    <div class="left-two">
+                        <div class="demo-sub-title">
+                            <strong>margin-right: auto on "Page 2"</strong>
+                        </div>
+                        <div class="navbar">
+                            <div>Page 1</div>
+                            <div class="margin-left-auto">Page 2</div>
+                            <div>Page 3 is longer</div>
+                            <div>Page 4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
