@@ -109,6 +109,7 @@
 .space-distributed-within-items .flex-1 .navbar > div {
     flex: 1;
 }
+
 /* .split-nav-using-margin */
 
 .split-nav-using-margin .navbar {
@@ -133,4 +134,34 @@
 
 .split-nav-using-margin .margin-left-auto {
     margin-left: auto;
+}
+
+/* .moving */
+
+.moving .box-container {
+    border: 2px solid black;
+    padding: 2px;
+    display: flex;
+    height: 500px;
+}
+
+.moving .box-container .the-box {
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    border: 2px solid lightseagreen;
+}
+
+/* .moving .center */
+
+.moving .center .box-container {
+    justify-content: center;
+    align-items: center;
+}
+
+/* .moving .top-left */
+
+.moving .top-left .box-container {
+    justify-content: flex-start;
+    align-items: flex-start;
 }
