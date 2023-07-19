@@ -165,3 +165,113 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
+
+/* .moving .top-center */
+
+.moving .top-center .box-container {
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* .moving .top-right */
+
+.moving .top-right .box-container {
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+/* .moving .right-center */
+
+.moving .right-center .box-container {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* .moving .bottom-right */
+
+.moving .bottom-right .box-container {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* .moving .bottom-center */
+
+.moving .bottom-center .box-container {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* .moving .bottom-left */
+
+.moving .bottom-left .box-container {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+/* .moving .left-center */
+
+.moving .left-center .box-container {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* .moving .all-positions */
+
+.moving .all-positions .center {
+    justify-self: center;
+    align-self: center;
+}
+
+.moving .all-positions .top-left {
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+.moving .all-positions .top-center {
+    justify-self: center;
+    align-self: flex-start;
+}
+
+.moving .all-positions .top-right {
+    justify-self: flex-end;
+    align-self: flex-start;
+}
+
+.moving .all-positions .right-center {
+    justify-self: flex-end;
+    align-self: center;
+}
+
+.moving .all-positions .bottom-right {
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.moving .all-positions .bottom-center {
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.moving .all-positions .bottom-left {
+    justify-self: flex-start;
+    align-self: flex-end;
+}
+
+.moving .all-positions .left-center {
+    justify-self: flex-start;
+    align-self: center;
+}
+
+
+/* .moving .all-positions-corrected */
+
+.moving .all-positions-corrected .box-container {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.moving .all-positions-corrected .box-container div {
+    display: flex;
+    justify-content: space-between;
+}
