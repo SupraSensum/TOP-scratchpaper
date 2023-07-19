@@ -312,3 +312,29 @@
 .card-layouts .card p {
     flex: 1 1 auto;
 }
+
+/* .media-objects */
+
+.media-objects .shrek-media {
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid black;
+    padding: 2px;
+    gap: 6px;
+}
+
+.media-objects .shrek-media .shrek-image img {
+    max-width: 100px;
+}
+
+.media-objects .shrek-media .content {
+    padding: 10px;
+}
+
+.media-objects .shrek-media div {
+    flex: auto;
+}
+
+.media-objects .shrek-media.reverse {
+    flex-direction: row-reverse;
+}
