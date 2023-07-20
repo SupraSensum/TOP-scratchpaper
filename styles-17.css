@@ -338,3 +338,44 @@
 .media-objects .shrek-media.reverse {
     flex-direction: row-reverse;
 }
+
+/* .form-control */
+
+.form-control .demo .form {
+    display: flex;
+}
+
+.form-control .demo .form .wrapper {
+    display: flex;
+    border: 1px solid rgb(96, 139, 168);
+    flex: 1;
+}
+
+.form-control .demo .form .wrapper > * {
+    border: none;
+    font-size: 1.2em;
+    font-weight: normal;
+    padding: 10px;
+    color: white;
+}
+
+.form-control .demo .form .wrapper input[type="text"] {
+    background-color: #608ba880;
+    flex: 1 1 auto;
+}
+
+.form-control .demo .form .wrapper input[type="submit"] {
+    background-color: rgba(96, 139, 168,1);
+}
+
+.form-control .demo .form .wrapper label {
+    background-color: #666;
+}
+
+.form-control .demo .form .space-eater {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
