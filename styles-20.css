@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.quarter-viewport {
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quarter-viewport > img {
+    max-height: 85%;
+    max-width: 85%;
+    object-fit: contain;
+}
+
+body > div {
+    display: flex;
+}
+
+footer {
+    background-color: grey;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+footer img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
